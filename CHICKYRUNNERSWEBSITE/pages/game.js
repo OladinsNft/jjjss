@@ -129,7 +129,7 @@ const handleButtonClick = () => {
             
             {/*Right Side - Sections and Connect*/}
             <Flex justify="space-between" align="center" padding="30px">
-            <Link href="https://twitter.com/DidemKkkaraasl1">
+            <Link href="https://twitter.com/ChickyRunners">
                     <Image src="/images/twitter-bird-symbols-png-logo-0.png" width="60px" margin="0 10px"/>
                 </Link>
       {buttons.map((button, index) => (
@@ -166,7 +166,7 @@ const handleButtonClick = () => {
       }}
       onMouseEnter={mintMouseEnter}
       onMouseLeave={mintMouseLeave}
-      href="https://twitter.com/ChickyRunners"
+      href=""
     >
       Mint
     </button>
