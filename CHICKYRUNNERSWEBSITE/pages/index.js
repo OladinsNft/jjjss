@@ -144,7 +144,7 @@ export default function Home() {
       }}
       onMouseEnter={mintMouseEnter}
       onMouseLeave={mintMouseLeave}
-      href=""
+      href="https://twitter.com/ChickyRunners"
     >
       Mint
     </button>
