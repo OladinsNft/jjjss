@@ -104,6 +104,14 @@ const handleButtonClick = () => {
     { name: 'About', href: '/' },
     
   ];
+  const [isHovereded, setIsHovereded] = useState(false);
+  const stakeMouseEnter = () => {
+    setIsHovereded(true);
+  };
+
+  const stakeMouseLeave = () => {
+    setIsHovereded(false);
+  };
   
   
   
@@ -129,7 +137,7 @@ const handleButtonClick = () => {
             
             {/*Right Side - Sections and Connect*/}
             <Flex justify="space-between" align="center" padding="30px">
-            <Link href="https://twitter.com/ChickyRunners">
+            <Link href="https://twitter.com/DidemKkkaraasl1">
                     <Image src="/images/twitter-bird-symbols-png-logo-0.png" width="60px" margin="0 10px"/>
                 </Link>
       {buttons.map((button, index) => (
@@ -153,6 +161,23 @@ const handleButtonClick = () => {
           {button.name}
         </a>
       ))}
+      <button className='BagelFatOne'
+      style={{
+        backgroundColor: isHovereded ? 'darkgray' : 'gray',
+        cursor: 'pointer',
+            textDecoration: 'none',
+            borderRadius: '10%',
+            fontSize: '20px',
+            lineHeight: '0.75',
+            margin: '0 8px',
+            padding: '10px 30px',
+      }}
+      onMouseEnter={stakeMouseEnter}
+      onMouseLeave={stakeMouseLeave}
+      href=""
+    >
+      Stake
+    </button>
       <button className='BagelFatOne'
       style={{
         backgroundColor: isHovered ? 'darkgray' : 'gray',
