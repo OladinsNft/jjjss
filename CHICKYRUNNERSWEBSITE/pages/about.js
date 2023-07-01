@@ -13,7 +13,7 @@ export default function Home() {
   const teamMembers = [
     { name: 'Kevin', role: 'Co-Founder' },
     { name: 'Shingeki', role: 'Co-Founder' },
-    { name: 'Ishima', role: 'Artist' },
+    { name: 'Mikishima', role: 'Artist' },
     { name: 'Rax', role: 'Developer' },
     { name: 'Emily', role: 'Game Designer' },
   ];
