@@ -26,10 +26,10 @@ export default function Home() {
   
   
   const {unityProvider, sendMessage, isLoaded } = new useUnityContext({
-    loaderUrl: "./Megaman/Build/DeadZoneChanged.loader.js",
-    dataUrl: "./Megaman/Build/DeadZoneChanged.data.unityweb",
-    frameworkUrl: "./Megaman/Build/DeadZoneChanged.framework.js.unityweb",
-    codeUrl: "./Megaman/Build/DeadZoneChanged.wasm.unityweb",
+    loaderUrl: "./Megaman/Build/UpdateForWebsite.loader.js",
+    dataUrl: "./Megaman/Build/UpdateForWebsite.data.unityweb",
+    frameworkUrl: "./Megaman/Build/UpdateForWebsite.framework.js.unityweb",
+    codeUrl: "./Megaman/Build/UpdateForWebsite.wasm.unityweb",
     
   });
   function handleClickSpawnEnemies() {
