@@ -1,6 +1,6 @@
 import React from 'react';
 import {  useState } from 'react';
-import { Flex, Image, Link } from '@chakra-ui/react';
+import { Flex, Image, Link,Box } from '@chakra-ui/react';
 
 
 
@@ -10,7 +10,14 @@ import { Flex, Image, Link } from '@chakra-ui/react';
 
 export default function Home() {
  
-
+  const teamMembers = [
+    { name: 'Kevin', role: 'Co-Founder' },
+    { name: 'Shingeki', role: 'Co-Founder' },
+    { name: 'Ishima', role: 'Artist' },
+    { name: 'Rax', role: 'Developer' },
+    { name: 'Emily', role: 'Game Designer' },
+  ];
+  
   
   const buttonStyle = {
     backgroundColor: '#ad0000',
@@ -192,6 +199,20 @@ export default function Home() {
       
     </Flex>
 
+    <section className="team-section">
+  <h2>Our Team</h2>
+  <Box display="flex" justifyContent="center" alignItems="center">
+    {teamMembers.map((member, index) => (
+      <div key={index} className="team-member">
+        <img src={`/images/${index + 1}.jpeg`} alt={member.name} />
+        <div>
+          <p>{member.name}</p>
+          <p>{member.role}</p>
+        </div>
+      </div>
+    ))}
+  </Box>
+</section>
 
 
 
