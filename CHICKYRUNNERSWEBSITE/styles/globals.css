@@ -181,3 +181,26 @@ html {
   
 }
 .button{}
+
+.team-section {
+  padding: 100px;
+  background-color: #929bed;
+  text-align: center;
+  font-family: "BagelFatOne";
+}
+
+.team-member {
+  margin: 50px;
+  
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member > div {
+  margin-top: 10px;
+}
