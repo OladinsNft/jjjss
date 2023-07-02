@@ -26,10 +26,10 @@ export default function Home() {
   
   
   const {unityProvider, sendMessage, isLoaded } = new useUnityContext({
-    loaderUrl: "./Megaman/Build/UpdateForWebsite.loader.js",
-    dataUrl: "./Megaman/Build/UpdateForWebsite.data.unityweb",
-    frameworkUrl: "./Megaman/Build/UpdateForWebsite.framework.js.unityweb",
-    codeUrl: "./Megaman/Build/UpdateForWebsite.wasm.unityweb",
+    loaderUrl: "./Megaman/Build/Noscorehotfix.loader.js",
+    dataUrl: "./Megaman/Build/Noscorehotfix.data.unityweb",
+    frameworkUrl: "./Megaman/Build/Noscorehotfix.framework.js.unityweb",
+    codeUrl: "./Megaman/Build/Noscorehotfix.wasm.unityweb",
     
   });
   function handleClickSpawnEnemies() {
