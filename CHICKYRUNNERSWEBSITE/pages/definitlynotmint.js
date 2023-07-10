@@ -173,7 +173,7 @@ export default function Home() {
 
 <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
 <iframe
-    src="https://ipfs-2.thirdwebcdn.com/ipfs/QmPvTEZKMiHfQ4AHnd8uvUy3yPxKL2MesWGi3KGGT5Ro2n?contract=0x5DCBB6ECdcE91E4aeFbAAC5642CF023f6Bb7B949&chain=%7B%22name%22%3A%22Arbitrum+Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum-goerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Arbitrum+Goerli+Ether%22%2C%22symbol%22%3A%22AGOR%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb-goerli%22%2C%22chainId%22%3A421613%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22arbitrum-goerli%22%7D&primaryColor=purple"
+    src="https://ipfs.io/ipfs/bafybeiaxqr22vtmr5eblmpqxhyi34j2ogygoljmd4cvj2xt4g33ogwlel4/?contract=0x5DCBB6ECdcE91E4aeFbAAC5642CF023f6Bb7B949&chain=%7B%22name%22%3A%22Arbitrum+Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum-goerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Arbitrum+Goerli+Ether%22%2C%22symbol%22%3A%22AGOR%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb-goerli%22%2C%22chainId%22%3A421613%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22arbitrum-goerli%22%7D&primaryColor=purple"
     width="900px"
     height="600px"
     frameborder="0"
@@ -186,7 +186,7 @@ export default function Home() {
 
       {(isInList.toString() == "true") ? (
         <iframe
-        src="https://ipfs-2.thirdwebcdn.com/ipfs/QmPvTEZKMiHfQ4AHnd8uvUy3yPxKL2MesWGi3KGGT5Ro2n?contract=0x0bb243b126fe501Cc6760c504429E7382B59E53b&chain=%7B%22name%22%3A%22Arbitrum+Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum-goerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Arbitrum+Goerli+Ether%22%2C%22symbol%22%3A%22AGOR%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb-goerli%22%2C%22chainId%22%3A421613%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22arbitrum-goerli%22%7D&primaryColor=purple"
+        src="https://ipfs.io/ipfs/bafybeiaxqr22vtmr5eblmpqxhyi34j2ogygoljmd4cvj2xt4g33ogwlel4/?contract=0x0bb243b126fe501Cc6760c504429E7382B59E53b&chain=%7B%22name%22%3A%22Arbitrum+Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum-goerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Arbitrum+Goerli+Ether%22%2C%22symbol%22%3A%22AGOR%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb-goerli%22%2C%22chainId%22%3A421613%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22arbitrum-goerli%22%7D&primaryColor=purple"
         width="900px"
         height="600px"
         frameborder="0"
