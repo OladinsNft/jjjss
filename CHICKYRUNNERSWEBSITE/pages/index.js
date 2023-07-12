@@ -47,6 +47,7 @@ export default function Home() {
     { name: 'About', href: '/about' },
     
     { name: 'Game', href: '/game' },
+    { name: '$CRUN TOKEN', href: '/cruntoken' },
   ];
   const [isHovered, setIsHovered] = useState(false);
   const mintStyle = {
