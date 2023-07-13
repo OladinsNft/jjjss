@@ -113,7 +113,7 @@ export default function Home() {
 
   return (
     
-    <ThirdwebProvider activeChain="arbitrum-goerli" supportedWallets={[metamaskWallet()]}>
+    <ThirdwebProvider activeChain="arbitrum" supportedWallets={[metamaskWallet()]}>
   
   
 <div className="about-background" > 
@@ -173,7 +173,7 @@ export default function Home() {
 
 <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
 <iframe
-    src="https://ipfs.io/ipfs/bafybeiaxqr22vtmr5eblmpqxhyi34j2ogygoljmd4cvj2xt4g33ogwlel4/?contract=0x5DCBB6ECdcE91E4aeFbAAC5642CF023f6Bb7B949&chain=%7B%22name%22%3A%22Arbitrum+Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum-goerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Arbitrum+Goerli+Ether%22%2C%22symbol%22%3A%22AGOR%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb-goerli%22%2C%22chainId%22%3A421613%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22arbitrum-goerli%22%7D&primaryColor=purple"
+    src="https://bafybeidpp4d3znpjxlvlhitaylbqwmyk2gzcxazp5wkftvwu7r3lsyku2q.gateway.ipfscdn.io/?contract=0x32E0708527D4a4Dda94e4bf8E78dc9BC314f78b8&chain=%7B%22name%22%3A%22Arbitrum+One%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb1%22%2C%22chainId%22%3A42161%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22arbitrum%22%7D&primaryColor=purple"
     width="900px"
     height="600px"
     frameborder="0"
@@ -186,7 +186,7 @@ export default function Home() {
 
       {(isInList.toString() == "true") ? (
         <iframe
-        src="https://ipfs.io/ipfs/bafybeiaxqr22vtmr5eblmpqxhyi34j2ogygoljmd4cvj2xt4g33ogwlel4/?contract=0x0bb243b126fe501Cc6760c504429E7382B59E53b&chain=%7B%22name%22%3A%22Arbitrum+Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum-goerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Arbitrum+Goerli+Ether%22%2C%22symbol%22%3A%22AGOR%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb-goerli%22%2C%22chainId%22%3A421613%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22arbitrum-goerli%22%7D&primaryColor=purple"
+        src="https://bafybeidpp4d3znpjxlvlhitaylbqwmyk2gzcxazp5wkftvwu7r3lsyku2q.gateway.ipfscdn.io/?contract=0x2919065dEA40d1025fE9B4C3a83c96d7c7E9281C&chain=%7B%22name%22%3A%22Arbitrum+One%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Farbitrum.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22arb1%22%2C%22chainId%22%3A42161%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22arbitrum%22%7D&primaryColor=purple"
         width="900px"
         height="600px"
         frameborder="0"
@@ -200,7 +200,7 @@ export default function Home() {
         
         <div className="BagelFatOne" style={{ padding: '0px', margin: '0 auto' }}>
           <div className="BagelFatOne" style={{ textAlign: 'center', padding: '0 20px', fontSize: '28px', color: '#d0d4f7', display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '600px', margin: '0 auto', background: '#6370e5', border: '4px solid #d0d4f7' }}>
-  If you are eligible for the Arbitrum airdrop, you have 1 free claim right. To check, please click on the &quot;CHECK FOR FREE CLAIM&quot; button below and wait for a moment.
+  If you are eligible for the Arbitrum airdrop, you have 1 free claim right. To check, please connect your wallet on top-right wallet connect and click on the &quot;CHECK FOR FREE CLAIM&quot; button below and wait for a moment.
 </div>
 <button className="BagelFatOne" onClick={handleButtonClick} style={{ fontSize: '40px', padding: '0px 75px' }}>CHECK FOR FREE CLAIM</button>
         
