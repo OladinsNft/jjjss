@@ -108,7 +108,35 @@ export default function Home() {
     
     window.location.reload();
   }
+ const [timeLeft, setTimeLeft] = useState('');
 
+  useEffect(() => {
+    const countDownDate = new Date();
+    countDownDate.setUTCHours(16, 0, 0, 0); // Set the target time to 04:00 PM UTC
+
+    const timer = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      if (distance < 0) {
+        // Timer has reached the target time
+        clearInterval(timer);
+        setTimeLeft('Mint started!');
+      } else {
+        // Calculate the remaining time
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        setTimeLeft(`${hours}:${minutes}:${seconds}`);
+      }
+    }, 1000);
+
+    // Clean up the interval on component unmount
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
 
 
   return (
@@ -169,7 +197,10 @@ export default function Home() {
 
 
 
-<div className="BagelFatOne" style={{ textAlign: 'center', padding: '10 40px' }} >Wallet address is {address} </div>
+<div className="BagelFatOne" style={{ textAlign: 'center', padding: '10 40px' }} > <div>
+      <h2>MINT STARTS IN</h2>
+      <p>{timeLeft}</p>
+    </div> </div>
 
 <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
 <iframe
