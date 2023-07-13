@@ -246,9 +246,7 @@ export default function Home() {
 
     
 
-    <div className="footer">
-  © 2023 CHICKY RUNNERS. All rights reserved.
-</div>
+    
 
 </div>
 </ThirdwebProvider>
