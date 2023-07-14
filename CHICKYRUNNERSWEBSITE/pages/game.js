@@ -79,6 +79,8 @@ const handleButtonClick = () => {
     
     { name: 'Game', href: '/game' },
    { name: '$CRUN TOKEN', href: '/cruntoken' },
+   { name: 'Mint', href: '/mint' },
+    { name: 'Nft Staking', href: '/' },
   ];
   const [isHovered, setIsHovered] = useState(false);
   const mintStyle = {
@@ -162,40 +164,7 @@ const handleButtonClick = () => {
           {button.name}
         </a>
       ))}
-      <button className='BagelFatOne'
-      style={{
-        backgroundColor: isHovereded ? 'darkgray' : 'gray',
-        cursor: 'pointer',
-            textDecoration: 'none',
-            borderRadius: '10%',
-            fontSize: '20px',
-            lineHeight: '0.75',
-            margin: '0 8px',
-            padding: '10px 30px',
-      }}
-      onMouseEnter={stakeMouseEnter}
-      onMouseLeave={stakeMouseLeave}
-      href=""
-    >
-      Stake
-    </button>
-      <button className='BagelFatOne'
-      style={{
-        backgroundColor: isHovered ? 'darkgray' : 'gray',
-        cursor: 'pointer',
-            textDecoration: 'none',
-            borderRadius: '10%',
-            fontSize: '20px',
-            lineHeight: '0.75',
-            margin: '0 8px',
-            padding: '10px 30px',
-      }}
-      onMouseEnter={mintMouseEnter}
-      onMouseLeave={mintMouseLeave}
-      href=""
-    >
-      Mint
-    </button>
+      
       
       <ConnectWallet />
     </Flex>
