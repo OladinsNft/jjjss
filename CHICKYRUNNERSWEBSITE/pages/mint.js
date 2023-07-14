@@ -197,10 +197,7 @@ export default function Home() {
 
 
 
-<div className="BagelFatOne" style={{ textAlign: 'center', padding: '10 40px' }} > <div>
-      <h2>MINT STARTS IN</h2>
-      <p>{timeLeft}</p>
-    </div> </div>
+<div className="BagelFatOne" style={{ textAlign: 'center', padding: '10 40px' }} >  </div>
 
 <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
 <iframe
