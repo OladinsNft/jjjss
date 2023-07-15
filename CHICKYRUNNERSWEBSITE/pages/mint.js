@@ -216,7 +216,7 @@ export default function Home() {
         height="600px"
         frameborder="0"
         style={{ padding: '0 10px' }}
-        >
+        ></iframe>
 
     </div>
     
